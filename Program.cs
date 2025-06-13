@@ -16,6 +16,16 @@ namespace ACT_1
             Console.Write("Enter your age: ");
             string ageInput = Console.ReadLine();
 
+            Console.Write("Enter your section: ");
+            string section = Console.ReadLine();
+            
+            Console.WriteLine($"\nHello, {name}, your current sections is {section}!");
+
+            Console.Write("Enter name of your subject: ");
+            string subject = Console.ReadLine();
+
+            Console.WriteLine($"\nHello, {name}, your current subject is {subject}!");
+
             int age;
             if (int.TryParse(ageInput, out age))
             {
